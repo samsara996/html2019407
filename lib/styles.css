@@ -1,0 +1,177 @@
+	body{
+		margin: 0;
+	}
+	header{
+		height: 60px;
+	}
+	header div{
+		display: inline-block;
+	}
+	header .label{
+	}
+	header .label-item{
+		padding-left: 10px;
+		line-height: 60px;
+	}
+	.label-item div{
+		vertical-align:middle;
+	}
+	header .select{
+		width: 140px;
+		height: 35px;
+	}
+	.select-time{
+		width: 230px;
+		height: 35px;
+	}
+
+
+	section{
+		display: -webkit-flex;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 60px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		
+	}
+	h3{
+		background-color: #63a0d4;
+		margin: 0;
+		font-weight: normal;
+		padding-left: 10px;
+		/*color: #ffffff;*/
+	}
+	.content{
+		position: relative;
+		width: 50%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.content>div{
+		margin: 5px;
+	}
+	.Datachart{
+		position: relative;
+		flex: 1;
+		/*border: 1px solid gray;*/
+	}
+	.gridData{
+		position: absolute;
+		top: 40px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+	}
+	.pie4{
+		position: relative;
+		flex: 2;
+		/*border: 1px solid gray;*/
+	}
+	.content-pie{
+		position: absolute;
+		width: 100%;
+		top: 25px;
+		bottom: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.pies{
+		position: relative;
+		width: 50%;
+		height: 50%;
+	}
+	.pie{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	#pie1{
+		border-right: 1px solid #bdff90;
+		border-bottom: 1px solid #bdff90;
+	}
+	#pie2{
+		border-left: 1px solid #bdff90;
+		border-bottom: 1px solid #bdff90;
+	}
+	#pie3{
+		border-right: 1px solid #bdff90;
+		border-top: 1px solid #bdff90;
+	}
+	#pie4{
+		border-left: 1px solid #bdff90;
+		border-top: 1px solid #bdff90;
+	}
+
+	.pieBorder{
+	/*#pie1{*/
+		/*border-right: 1px solid #bdff90;*/
+		/*border-bottom: 1px solid #bdff90;*/
+	/*}*/
+	/*#pie2{*/
+		/*border-left: 1px solid #bdff90;*/
+		/*border-right: 1px solid #bdff90;*/
+	/*}*/
+	/*#pie3{*/
+		/*border-top: 1px solid #bdff90;*/
+		/*border-right: 1px solid #bdff90;*/
+	/*}*/
+	/*#pie4{*/
+		/*border-top: 1px solid #bdff90;*/
+		/*border-left: 1px solid #bdff90;*/
+	/*}*/
+	}
+
+	.bar3{
+		position: relative;
+		height: 100%;
+		/*border: 1px solid gray;*/
+	}
+	.content-bar{
+		position: absolute;
+		width: 100%;
+		top: 25px;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.boxs{
+		position: relative;
+		flex: 1;
+	}
+	.bar{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	#bar1{
+		border-left: 10px solid #bdff90;
+		border-bottom: 5px solid #bdff90;
+	}
+	#bar2{
+		border-left: 10px solid #bdff90;
+		border-top: 5px solid #bdff90;
+		border-bottom: 5px solid #bdff90;
+	}
+	#bar3{
+		border-left: 10px solid #bdff90;
+		border-top: 5px solid #bdff90;
+	}
+
+
+	@media screen and (max-width: 1111px){
+		header{
+			height: 125px;
+		}
+		section {
+			top: 125px;
+		}
+
+	}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>h5c3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="lib/js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/css/dx.common.css" /> 
+	<link rel="stylesheet" type="text/css" href="lib/css/dx.light.css" />
+	<script type="text/javascript" src="lib/js/dx.all.js"></script>
+
+	<script type="text/javascript" src="lib/data.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/styles.css" />
+	<script type="text/javascript" src="lib/index.js"></script>
+	
+</head>
+<style type="text/css">
+	
+</style>
+<body>
+	<header>
+		<div class="label">
+			<!--<div class="label-item">-->
+				<!--<div >按年:</div>-->
+				<!--<div >-->
+					<!--<div class="select" id="year"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="label-item">-->
+				<!--<div >按季度:</div>-->
+				<!--<div>-->
+					<!--<div class="select" id="season"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="label-item">-->
+				<!--<div>按月:</div>-->
+				<!--<div>-->
+					<!--<div class="select" id="month"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<div class="label-item">
+				<div >按资源:</div>
+				<div>
+					<div class="select" id="source"></div>
+				</div>
+			</div>
+			<div class="label-item">
+				<div >快速统计周期:</div>
+				<div>
+					<div class="select" id="fastweek"></div>
+				</div>
+			</div>
+
+			<!--时间-->
+			<div class="label-item">
+				<div ></div>
+				<div>
+					<div class="select-time" id="begin-time"></div>
+				</div>
+			</div>
+			<div class="label-item">
+				<div >至</div>
+				<div>
+					<div class="select-time" id="end-time"></div>
+				</div>
+			</div>
+
+			<!--按钮-->
+			<div class="label-item">
+				<div ></div>
+				<div>
+					<div class="select-button" id="stati"></div>
+				</div>
+			</div>
+			<div class="label-item">
+				<div ></div>
+				<div>
+					<div class="select-button" id="export"></div>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<section>
+		<div class="content">
+			<div class="Datachart">
+				<h3>按需求观测情况的统计</h3>
+				<div class="gridData" id="gridData"></div>
+			</div>
+
+			<div class="pie4">
+				<h3>按需求基本信息统计</h3>
+				<div class="content-pie">
+					<div class="pies">
+						<div class="pie" id="pie1"></div>
+					</div>
+					<div class="pies">
+						<div class="pie" id="pie2"></div>
+					</div>
+					<div class="pies">
+						<div class="pie" id="pie3"></div>
+					</div>
+					<div class="pies">
+						<div class="pie" id="pie4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div  class="content">
+			<div class="bar3">
+				<h3>按资源统计</h3>
+				<div class="content-bar">
+					<div class="boxs">
+						<div class="bar" id="bar1"></div>
+					</div>
+					<div class="boxs">
+						<div class="bar" id="bar2"></div>
+					</div>
+					<div class="boxs">
+						<div class="bar" id="bar3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+</body>
+</html>
